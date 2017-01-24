@@ -14,14 +14,13 @@ var bool = true;
 var times = 0;
 while(bool)
 {
-	rand = Math.floor(Math.random()*legit.length);
 	window.alert(legtit[rand]);
 	
 	times++;
 	if(times >= 20)
 	{
 		var rand2 = Math.floor(Math.random()*15);
-		if(rand2 === 8)
+		if(rand2 == 8)
 		{
 			bool = false;
 		}
